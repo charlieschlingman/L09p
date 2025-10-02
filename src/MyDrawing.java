@@ -22,6 +22,8 @@ public class MyDrawing extends JPanel {
 	 */
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
+		
+		frame.setTitle("Zack & Charlie — DrawPlay");
 		// Create a JPanel (MyDrawing), we'll draw on this
 		frame.setContentPane(new MyDrawing());
 		// Program will end when the window is closed
